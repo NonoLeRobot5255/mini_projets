@@ -1,6 +1,6 @@
-mod jour5;
-use jour5::{probleme5};
+mod jour7;
+use jour7::{probleme7};
 fn main() {
-    let resultat = probleme5();
+    let resultat = probleme7();
     println!("le résultat est : {}", resultat);
 }

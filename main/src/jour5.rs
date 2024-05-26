@@ -1,5 +1,5 @@
 pub fn probleme5() -> u64{
-    let mut i:u32 = 2;
+    let mut i:u128 = 2;
     loop{
         let mut goodgood:bool = true;
         for j in 5..20{
