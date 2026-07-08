@@ -1,33 +1,12 @@
-   0.015171872s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="pO14"}: cargo::core::compiler::fingerprint: fingerprint error for project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler)/Check { test: false }/TargetInner { name: "pO14", doc: true, ..: with_path("/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/pO14.rs", Edition2024) }
-   0.015185149s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="pO14"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/nolann/Documents/perso/code/mini_projets/project-euler/target/debug/.fingerprint/project-euler-acd8212800e71782/bin-pO14`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <E as anyhow::context::ext::StdError>::ext_context
-   1: cargo_util::paths::read
-   2: cargo::core::compiler::fingerprint::prepare_target
-   3: cargo::core::compiler::compile
-   4: cargo::core::compiler::build_runner::BuildRunner::compile
-   5: cargo::ops::cargo_compile::compile_ws
-   6: cargo::ops::cargo_compile::compile_with_exec
-   7: cargo::ops::cargo_compile::compile
-   8: cargo::commands::check::exec
-   9: cargo::cli::Exec::exec
-  10: cargo::cli::main
-  11: cargo::main
-  12: std::sys::backtrace::__rust_begin_short_backtrace
-  13: std::rt::lang_start::{{closure}}
-  14: std::rt::lang_start_internal
-  15: main
-  16: __libc_start_call_main
-  17: __libc_start_main@@GLIBC_2.34
-  18: _start
-   0.017576614s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="pO14"}: cargo::core::compiler::fingerprint: stale: changed "/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/pO14.rs"
-   0.017582491s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="pO14"}: cargo::core::compiler::fingerprint:           (vs) "/home/nolann/Documents/perso/code/mini_projets/project-euler/target/debug/.fingerprint/project-euler-103f009a47c34432/dep-test-bin-pO14"
-   0.017584704s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="pO14"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1783523399, nanos: 938993950 } < FileTime { seconds: 1783523406, nanos: 615019820 }
-   0.017605024s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="pO14"}: cargo::core::compiler::fingerprint: fingerprint dirty for project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler)/Check { test: true }/TargetInner { name: "pO14", doc: true, ..: with_path("/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/pO14.rs", Edition2024) }
-   0.017611013s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="pO14"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/nolann/Documents/perso/code/mini_projets/project-euler/target/debug/.fingerprint/project-euler-103f009a47c34432/dep-test-bin-pO14", reference_mtime: FileTime { seconds: 1783523399, nanos: 938993950 }, stale: "/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/pO14.rs", stale_mtime: FileTime { seconds: 1783523406, nanos: 615019820 } }))
+   0.015413035s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint: stale: changed "/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/p014.rs"
+   0.015422146s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint:           (vs) "/home/nolann/Documents/perso/code/mini_projets/project-euler/target/debug/.fingerprint/project-euler-039eb6d4e3c197f7/dep-bin-p014"
+   0.015424922s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1783525016, nanos: 645970238 } < FileTime { seconds: 1783525069, nanos: 992418370 }
+   0.015453145s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint: fingerprint dirty for project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler)/Check { test: false }/TargetInner { name: "p014", doc: true, ..: with_path("/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/p014.rs", Edition2024) }
+   0.015460860s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/nolann/Documents/perso/code/mini_projets/project-euler/target/debug/.fingerprint/project-euler-039eb6d4e3c197f7/dep-bin-p014", reference_mtime: FileTime { seconds: 1783525016, nanos: 645970238 }, stale: "/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/p014.rs", stale_mtime: FileTime { seconds: 1783525069, nanos: 992418370 } }))
+   0.015562249s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint: stale: changed "/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/p014.rs"
+   0.015565128s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint:           (vs) "/home/nolann/Documents/perso/code/mini_projets/project-euler/target/debug/.fingerprint/project-euler-83c3d388b8b41e84/dep-test-bin-p014"
+   0.015567149s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1783525016, nanos: 645970238 } < FileTime { seconds: 1783525069, nanos: 992418370 }
+   0.015578619s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint: fingerprint dirty for project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler)/Check { test: true }/TargetInner { name: "p014", doc: true, ..: with_path("/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/p014.rs", Edition2024) }
+   0.015583617s  INFO prepare_target{force=false package_id=project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler) target="p014"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/nolann/Documents/perso/code/mini_projets/project-euler/target/debug/.fingerprint/project-euler-83c3d388b8b41e84/dep-test-bin-p014", reference_mtime: FileTime { seconds: 1783525016, nanos: 645970238 }, stale: "/home/nolann/Documents/perso/code/mini_projets/project-euler/src/bin/p014.rs", stale_mtime: FileTime { seconds: 1783525069, nanos: 992418370 } }))
     Checking project-euler v0.1.0 (/home/nolann/Documents/perso/code/mini_projets/project-euler)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.04s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.05s
