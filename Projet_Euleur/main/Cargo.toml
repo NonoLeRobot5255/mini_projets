@@ -1,8 +1,0 @@
-[package]
-name = "main"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-hyperfine = "1.18.0"
-round = "0.1.2"
